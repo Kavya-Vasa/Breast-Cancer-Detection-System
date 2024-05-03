@@ -18,3 +18,5 @@ that contribute to the understanding and development of the detection methodolog
 Using an adaptive mean filter for breast cancer detection in mammograms offers several advantages 
 over other filters, primarily due to its ability to preserve edge information while effectively reducing 
 noise. Lastly, it uses Probabiltistic Neural Network to classify the 3 types of microclacifications in a breast and they are Benign, Malignant & Normal.
+
+Important Note: - To run the project download the .exe file and install it on your PC. 
