@@ -25,5 +25,5 @@ Dataset Download Link:- https://data.mendeley.com/datasets/ywsbh3ndr8/2
 
 The report in pdf format contains all the information of this project & includes its screenshots too.
 
-To run the project in MATLAB download and import .m files in MATLAB application or MATLAB online and run the project.
+To run the project in MATLAB download and import .m & .mat files in MATLAB application or MATLAB online and run the project.
 
