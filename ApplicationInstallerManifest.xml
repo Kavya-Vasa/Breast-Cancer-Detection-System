@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationInstallerManifest>
+   <DefaultInstallationDirectory>%ProgramFiles%\K.J. Somaiya College of Engineering\Breast_Cancer_Detection_System\</DefaultInstallationDirectory>
+   <ApplicationName>Breast_Cancer_Detection_System</ApplicationName>
+   <ExecutableName>application\Breast_Cancer_Detection_System.exe</ExecutableName>
+   <GUID>049b7d11-e7f5-43d2-9701-eaa5eb59cb09</GUID>
+   <ApplicationIcon>default_icon_48.png</ApplicationIcon>
+   <Logo>logo7771980371484863935.png</Logo>
+   <Version>1.0</Version>
+   <AddRemoveProgramIcon>application\default_icon.ico</AddRemoveProgramIcon>
+   <AuthorOrganization>K.J. Somaiya College of Engineering</AuthorOrganization>
+   <Summary>The system aims to revolutionize breast cancer detection through GMM, PNN &amp; Adaptive Median Filtering .</Summary>
+   <WelcomePanelText>Breast_Cancer_Detection_System 1.0
+The system aims to revolutionize breast cancer detection through GMM, PNN &amp; Adaptive Median Filtering .
+
+We​ ​have​ ​used​ ​adaptive​ ​mean​ ​filter​ ​to​ ​remove​ ​noise​ ​from​ ​image.​ ​since​ ​it​ ​is​ ​better among​ ​all​ ​the​ ​spatial​ ​filters​ ​and​ ​distinguish​ ​fine​ ​details​ ​from​ ​noise.​​The​ ​Adaptive Median​ ​Filter​ ​performs​ ​spatial​ ​processing​ ​to​ ​determine​ ​which​ ​pixels​ ​in​ ​an​ ​image have​ ​been​ ​affected​ ​by​ ​impulse​ ​noise.​ ​The​ ​Adaptive​ ​Median​ ​Filter​ ​classifies​ ​pixels as​ ​noise​ ​by​ ​comparing​ ​each​ ​pixel​ ​in​ ​the​ ​image​ ​to​ ​its​ ​surrounding​ ​neighbor​ ​pixels. The​ ​size​ ​of​ ​the​ ​neighborhood​ ​is​ ​adjustable,​ ​as​ ​well​ ​as​ ​the​ ​threshold​ ​for​ ​the comparison.​ ​A​ ​pixel​ ​that​ ​is​ ​different​ ​from​ ​a​ ​majority​ ​of​ ​its​ ​neighbors,​ ​as​ ​well​ ​as being​ ​not​ ​structurally​ ​aligned​ ​with​ ​those​ ​pixels​ ​to​ ​which​ ​it​ ​is​ ​similar,​ ​is​ ​labeled​ ​as impulse​ ​noise. These​ ​noise​ ​pixels​ ​are​ ​then​ ​replaced​ ​by​ ​the​ ​median​ ​pixel​ ​value​ ​of the​ ​pixels​ ​in​ ​the​ ​neighborhood​ ​that​ ​have​ ​passed​ ​the​ ​noise​ ​labeling​ ​test. We​ ​are initially​ ​converting​ ​the​ ​image​ ​into​ ​grayscale​ ​image​ ​using​ ​rgb2gray()​ ​function​ ​then ​​applying​ ​adaptive​ ​mean​ ​filtering​ ​to​ ​the​ ​resulting​ ​image​ ​and​ ​then​ ​converted​ ​the image​ ​into​ ​unsigned​ ​integer​ ​8​ ​using​ ​unit8()​ ​function. ​In​ ​this​ ​way​ ​we​ ​preprocessed image, then​ ​we​ ​performed​ ​GMM segmentation(Gaussian​ ​Mixture​ ​Model)​ ​on​ ​the preprocessed​ ​image​ ​with​ ​number​ ​of​ ​regions​ ​2​ ​and​ ​number​ ​of​ ​GMM​ ​components 2​ ​and​ ​maximum​ ​number​ ​iterations​ ​10.​ ​We​ ​performed​ ​k-means​ ​segmentation​ ​with k=2.​ ​Then​ ​we​ ​Implemented​ ​HMRF-EM​ ​(Hidden​ ​Markov​ ​Random​ ​Field​ ​Model)​ ​and its​ ​Expectation-Maximization​ ​Algorithm.
+
+SKK
+sdb@somaiya.edu, kavya.vasa@somaiya.edu, krisha.rawal@somaiya.edu</WelcomePanelText>
+   <MCRProducts>
+      <MCRProduct>
+         <ExternalProductIdentifier>35000</ExternalProductIdentifier>
+      </MCRProduct>
+      <MCRProduct>
+         <ExternalProductIdentifier>35002</ExternalProductIdentifier>
+      </MCRProduct>
+      <MCRProduct>
+         <ExternalProductIdentifier>35003</ExternalProductIdentifier>
+      </MCRProduct>
+      <MCRProduct>
+         <ExternalProductIdentifier>35010</ExternalProductIdentifier>
+      </MCRProduct>
+      <MCRProduct>
+         <ExternalProductIdentifier>35112</ExternalProductIdentifier>
+      </MCRProduct>
+      <MCRProduct>
+         <ExternalProductIdentifier>35117</ExternalProductIdentifier>
+      </MCRProduct>
+      <MCRProduct>
+         <ExternalProductIdentifier>35119</ExternalProductIdentifier>
+      </MCRProduct>
+      <MCRProduct>
+         <ExternalProductIdentifier>35135</ExternalProductIdentifier>
+      </MCRProduct>
+   </MCRProducts>
+</ApplicationInstallerManifest>
