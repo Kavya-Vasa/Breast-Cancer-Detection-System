@@ -17,13 +17,15 @@ the images for the presence of cancer. The project draws from research literatur
 that contribute to the understanding and development of the detection methodology.
 Using an adaptive mean filter for breast cancer detection in mammograms offers several advantages 
 over other filters, primarily due to its ability to preserve edge information while effectively reducing 
-noise. Lastly, it uses Probabiltistic Neural Network (PNN) to classify the 3 types of microclacifications in a breast and they are Benign, Malignant & Normal.
+noise. Lastly, it uses Probabiltistic Neural Network (PNN) to classify the 3 types of microclacifications in a breast and they are Benign, Malignant & Normal. This project is a Windows standalone application.
 
 Important Note: - To run the project download the .exe file and install it on your PC. 
 
 Dataset Download Link:- https://data.mendeley.com/datasets/ywsbh3ndr8/2
 
 The report in pdf format contains all the information of this project & includes its screenshots too.
+
+See the BCDS_demo.mp4 for project demo & installation.mp4 for application installation.
 
 To run the project in MATLAB download and import .m & .mat files in MATLAB application or MATLAB online and run the project.
 
