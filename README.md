@@ -17,4 +17,4 @@ the images for the presence of cancer. The project draws from research literatur
 that contribute to the understanding and development of the detection methodology.
 Using an adaptive mean filter for breast cancer detection in mammograms offers several advantages 
 over other filters, primarily due to its ability to preserve edge information while effectively reducing 
-noise
+noise.
