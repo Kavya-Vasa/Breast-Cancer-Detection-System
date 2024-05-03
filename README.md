@@ -7,7 +7,7 @@ treatment.
 The project's methodology involves several steps. Initially, adaptive mean filtering is applied to the 
 mammogram images to remove noise and enhance image quality. This filtering technique is chosen for 
 its effectiveness in distinguishing fine details from noise. Following this preprocessing step, Gaussian 
-Mixture Model (GMM) segmentation is performed to classify regions in the image. Additionally, kmeans segmentation is employed to further analyze the image data.
+Mixture Model (GMM) segmentation is performed to classify regions in the image. Additionally, k-means segmentation is employed to further analyze the image data.
 A notable aspect of the project is the implementation of the Hidden Markov Random Field (HMRF) 
 model and its Expectation-Maximization (EM) algorithm. These techniques are utilized to refine the 
 segmentation results and improve the accuracy of cancer detection.
